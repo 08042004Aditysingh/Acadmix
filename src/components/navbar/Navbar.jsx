@@ -27,14 +27,14 @@ const Navbar = () => {
       <a
         onClick={() => setClick("#testimonials")}
         className={click === "#testimonials" ? "active" : ""}
-        href="#testimonials"
+        href="#academics"
       >
         <BiBook />
       </a>
       <a
         onClick={() => setClick("#about")}
         className={click === "#about" ? "active" : ""}
-        href="#about"
+        href="#technology"
       >
         <RiServiceLine />
       </a>
